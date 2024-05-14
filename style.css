@@ -1,0 +1,210 @@
+@font-face {
+    font-family: 'MADE Likes Slab';
+    src: url('assets/fonts/MADE-Likes-Slab.otf');
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    overflow-x: hidden;
+    background-image: url('assets/bg.png');
+    font-family: 'MADE Likes Slab';
+    padding: 0 10vmin 0 10vmin;
+}
+
+
+.page-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.page-section img {
+    flex-shrink: 0;
+}
+
+h2 {
+    font-size: 2em;
+}
+p {
+    font-size: 1.2em;
+}
+
+.language-selector {
+    width: 100%;
+    padding: 2vmin 10vmin 0 2vmin;
+}
+
+.klubok {
+    position: absolute;
+    right: 0;
+    padding: 2vmin 2vmin 0rem 0;
+}
+
+/* HERO */
+
+.hero-images {
+    margin-top: 5rem;
+    width: 90vmin;
+}
+
+/* BIRTH */
+.section-born {
+    display: flex;
+    margin-top: -50px;
+    margin-left: -250px;
+}
+
+.section-born img {
+    flex-shrink: 0;
+    width: 60vmin;
+    height: 100%;
+}
+
+.bs-text {
+    width: 17rem;
+    margin-left: 2rem;
+    text-align: left;
+}
+
+/* BAPTISM */
+
+.section-baptism {
+    display: flex;
+    margin-left: -200px;
+    margin-top: -60px;
+}
+
+.bbs-text {
+    width: 16rem;
+    margin: 1em 2rem 0 2rem;
+    text-align: left;
+}
+
+/* SCHOOL */
+
+.sy-text {
+    margin-top: -8em;
+    margin-left: 25em;
+}
+
+/* UNIVERSITY */
+
+.section-university {
+    display: flex;
+    flex-direction: row;
+}
+
+.us-text {
+    width: 17rem;
+    margin: 3rem 2rem 0 2rem;
+}
+
+/* MARRIAGE */
+
+.section-marriage {
+    display: flex;
+    flex-direction: row;
+}
+
+.ms-text {
+    width: 15rem;
+    margin: 10em 2rem 0 -15rem;
+    text-align: left;
+}
+
+/* DAUGHTERS */
+
+.section-daughters {
+    display: flex;
+    flex-direction: row;
+}
+
+.ds-text {
+    width: 17rem;
+    margin: -1em 3rem 0 0;
+    text-align: left;
+}
+
+/* RESEARCH INSTITUTE */
+
+.section-research {
+    display: flex;
+    flex-direction: column;
+}
+
+.rs-text {
+    width: 17rem;
+    margin: -23rem 0 0 59rem;
+    text-align: left;
+}
+
+/* GRANDSON */
+
+.section-grandson {
+    display: flex;
+    flex-direction: column;
+}
+
+.gs-text {
+    margin: -25rem 0 15rem 15rem;
+}
+
+/* RETIREMENT */
+
+.section-retirement {
+    display: flex;
+    flex-direction: row;
+}
+
+.rrs-text {
+    width: 13rem;
+    margin: 10rem 2rem 0 2rem;
+    text-align: left;
+}
+
+/* GOLDEN WEDDING */
+
+.section-goldenwedding {
+    display: flex;
+    flex-direction: column;
+}
+
+.gws-text {
+    margin: 10rem 0 -12rem 13rem;
+}
+
+/* DEATH */
+
+.section-twentynineteen {
+    display: flex;
+    flex-direction: row;
+}
+
+.tns-text {
+    width: 13rem;
+    margin: 11rem 0 0 -22rem;
+    text-align: left;
+}
+
+/* LINES */
+
+.line-1 {
+    position: relative;
+    width: 50vmin;
+    margin-top: -330px;
+    margin-left: -70vmin;
+}
+
+.line-2 {
+    margin-top: -260px;
+    margin-left: -20px;
+}
+
+.line-3 {
+    margin-left: -250px;
+    margin-top: -340px;
+}
+
+*/
