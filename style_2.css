@@ -4,12 +4,21 @@
         display: none;
     }
 
+    img {
+        filter: contrast(1.05);
+    }
+
     .page-section {
         display: flex;
         flex-direction: column;
         margin: 0 !important;
         padding: 0 !important;
         width: 100vw !important;
+    }
+
+    .language-selector {
+        left: 60px !important;
+        margin-bottom: 50px;
     }
 
     .timeline img {
