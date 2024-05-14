@@ -1,5 +1,68 @@
 
+@media only screen and (max-width: 800px) {
+    .non-mob {
+        display: none;
+    }
 
+    .page-section {
+        display: flex;
+        flex-direction: column;
+        margin: 0 !important;
+        padding: 0 !important;
+        width: 100vw !important;
+    }
+
+    .timeline img {
+        width: 100vmin !important;
+        margin: 0 !important;
+        margin-left: -3vmin !important;
+    }
+
+    .menu {
+        margin-top: 5rem !important;
+        width: 100vw !important;
+    }
+
+    .navbook {
+        width: 120vmin !important;
+        margin-bottom: -7vmin;
+        margin-left: -10vmin !important;
+        z-index: 2;
+    }
+
+    .pages img {
+        width: 18vmin !important;
+        height: auto;
+        transition: transform .3s ease-in-out;
+    }
+    
+    .pages {
+        margin-left: -9vmin !important;
+    }
+
+    .section-birth {
+        margin-top: -2rem;
+    }
+
+    .section-daughters {
+        margin-top: -18rem;
+        margin-bottom: -2rem;
+    }
+
+    .section-grandson {
+        margin-top: -7rem;
+        margin-bottom: -9rem;
+    }
+
+    .section-retirement {
+        margin-bottom: 2rem;
+    }
+
+    .section-twentynineteen {
+        margin-bottom: 7rem;
+    }
+
+}
 
 @font-face {
     font-family: 'MADE Likes Slab';
@@ -7,14 +70,14 @@
 }
 
 body {
+    background-image: url('assets/bg.png');
     display: flex;
     flex-direction: column;
-    background-size: 100%;
+    background-size: 200%;
     background-attachment: scroll;
     height: 100vh;
     width: 100vw;    
     overflow-x: hidden;
-    background-image: url('assets/bg.png');
     font-family: 'MADE Likes Slab';
 }
 
@@ -34,6 +97,7 @@ p {
 
 .page-section img {
     flex-shrinking: 0;
+    transition: all 0.2s ease-in-out;
 }
 
 .timeline img {
@@ -275,8 +339,8 @@ p {
 }
 
 .navbook {
-    width: 90vmin;
-    margin-bottom: -7vmin;
+    width: 80vw;
+    margin-bottom: -7vw;
     margin-left: -4vmin;
     z-index: 2;
 }
@@ -310,14 +374,14 @@ p {
 }
 
 .pages img {
-    width: 14vmin;
+    width: 12vw;
     height: auto;
     transition: transform .3s ease-in-out;
 }
 
 .pages img:hover {
     cursor: pointer;
-    width: 14vmin;
+    width: 12vw;
     transform: translateY(-1rem);
 }
 
@@ -354,4 +418,400 @@ p {
     width: 1038px;
     margin-top: -1800px;
     right: 870px;
+}
+
+@media only screen and (min-width: 801px) and (max-width: 1366px) {
+
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    p {
+        font-size: 1.3rem;
+    }
+
+    .timeline {
+        padding: 0 50px 0 50px !important;
+    }
+    .timeline img {
+        margin: 0 !important;
+    }
+
+    .hero img {
+        width: 1114px;
+    }
+
+    /* BIRTH */
+
+    .section-birth {
+        align-items: center;
+        padding: 0 5vw 0 5vw !important;
+        width: 100vw !important;
+    }
+
+    .birth {
+        position: relative;
+        width: 832px;
+        left: -100px;
+    }
+
+    .bs-text {
+        position: relative;
+        width: 325px;
+        margin-left: 650px;
+        margin-top: -510px;
+    }
+
+    /* BAPTISM */
+
+    .section-baptism {
+        align-items: center;
+        padding: 0 5vw 0 5vw !important;
+        width: 100vw !important;
+    }
+    
+    .bbs-text {
+        position: relative;
+        width: 321px;
+        margin-left: -500px;
+        margin-top: 120px;
+        margin-bottom: -300px;
+    }
+
+    .baptism {
+        position: relative;
+        width: 1082px;
+    }
+
+    /* SCHOOL */
+
+    .section-school {
+        align-items: center;
+        padding: 0 5vw 0 5vw !important;
+        width: 100vw !important;
+    }
+
+    .school {
+        position: relative;
+        width: 905px;
+    }
+
+    .sy-text {
+        position: relative;
+        margin-left: 400px;
+        margin-top: -250px;
+    }
+
+    /* UNIVERSITY */
+
+    .section-university {
+        align-items: center;
+        padding: 0 5vw 0 5vw !important;
+        width: 100vw !important;
+    }
+
+    .university {
+        position: relative;
+        width: 730px;
+        right: -5px;
+    }
+
+    .us-text {
+        position: relative;
+        margin-left: -600px;
+        width: 325px;
+        margin-top: 100px;
+        margin-bottom: -380px;
+    }
+
+    .chamomille {
+        top: -500px;
+    }
+
+    /* WEDDING */
+
+    .section-wedding {
+        align-items: center;
+        padding: 0 5vw 0 5vw !important;
+        width: 100vw !important;
+    }
+
+    .wedding {
+        position: relative;
+        width: 905px;
+        top: -610px;
+    }
+
+    .ws-text {
+        position: relative;
+        width: 300px;
+        top: -410px;
+        left: -130px;
+    }
+
+    /* DAUGHTERS */
+
+    .section-daughters {
+        align-items: center;
+        padding: 0 5vw 0 5vw !important;
+        width: 100vw !important;
+    }
+
+    .ds-text {
+        position: relative;
+        margin-top: -220px;
+        margin-left: -450px;
+    }
+
+    .daughters {
+        position: relative;
+        width: 488px;
+        top: -460px;
+        left: 200px;
+    }
+
+    .ball-toy {
+        width: 571px;
+        top: -650px;
+        left: -710px;
+    }
+
+    /* WORK */
+
+    .section-work {
+        align-items: center;
+        padding: 0 5vw 0 5vw !important;
+        width: 100vw !important;
+    }
+
+    .work {
+        position: relative;
+        width: 950px;
+        top: -1000px;
+    }
+
+    .rs-text {
+        position: relative;
+        margin-top: -1270px;
+        margin-left: 550px;
+        width: 300px;
+    }
+
+    /* GRANDSON */
+
+    .section-grandson {
+        align-items: center;
+        padding: 0 5vw 0 5vw !important;
+        width: 100vw !important;
+    }
+
+    .grandson {
+        position: relative;
+        width: 938px;
+        top: -250px;
+        left: -70px;
+    }
+
+    .gs-text {
+        position: relative;
+        top: -10px;
+        left: -450px;
+        margin-bottom: 250px;
+    }
+
+    /* RETIREMENT */
+
+    .section-retirement {
+        align-items: center;
+        padding: 0 5vw 0 5vw !important;
+        width: 100vw !important;
+    }
+
+    .retirement {
+        position: relative;
+        width: 872px;
+    }
+
+    .rrs-text {
+        position: relative;
+        width: 300px;
+        top: 190px;
+        left: -110px;
+    }
+
+    /* GOLDEN WEDDING */
+
+    .section-goldenwedding {
+        align-items: center;
+        padding: 0 5vw 0 5vw !important;
+        width: 100vw !important;
+        height: 761.6px;
+    }
+
+    .goldenwedding {
+        position: relative;
+        width: 861px;
+        top: -1050px;
+    }
+
+    .gws-text {
+        position: relative;
+        top: -870px;
+        left: -480px;
+    }
+
+    .lottery-ticket {
+        position: relative;
+        top: -2000px;
+        left: -1000px;
+    }
+
+    /* DEATH */
+
+    .section-twentynineteen {
+        align-items: center;
+        padding: 0 5vw 0 5vw !important;
+        width: 100vw !important;
+        margin-top: -410px;
+    }
+
+    .twentynineteen {
+        position: relative;
+        width: 994px;
+    }
+
+    .tns-text {
+        position: relative;
+        top: 150px;
+        left: -200px;
+        width: 300px;
+    }
+
+    /* MENU */
+
+    .section-navbook {
+        margin-bottom: 0 !important;
+    }
+
+}
+
+@media only screen and (max-width: 1120px) {
+    h2 {
+        font-size: 2.3rem;
+    }
+    p {
+        font-size: 1.2rem;
+    }
+    .birth {
+        width: 647px;
+    }
+
+    .bs-text{
+        top: 90px;
+        left: -70px;
+    }
+
+    .baptism {
+        width: 842px;
+        top: 30px;
+    }
+
+    .bbs-text {
+        left: 60px;
+        width: 280px;
+    }
+
+    .school {
+        width: 792px;
+    }
+
+    .sy-text {
+        top: 40px;
+    }
+
+    .university {
+        width: 639px;
+        top: 20px;
+    }
+
+    .us-text {
+        top: -10px;
+        left: 40px;
+        width: 300px;
+    }
+
+    .wedding {
+        top: -590px;
+        width: 792px;
+        left: 40px;
+    }
+
+    .ws-text {
+        top: -300px;
+        left: -160px;
+        width: 280px;
+    }
+
+    .daughters {
+        width: 427px;
+        top: -400px;
+    }
+
+    .ds-text {
+        top: 50px;
+        width: 322px;
+    }
+
+    .work {
+        width: 831px;
+        top: -920px;
+    }
+
+    .rs-text {
+        top: 100px;
+        left: -20px;
+        width: 250px;
+    }
+
+    .grandson {
+        top: -250px;
+        left: -10px;
+        width: 821px;
+    }
+
+    .gs-text {
+        top: 40px;
+        left: -340px;
+    }
+
+    .retirement {
+        width: 763px;
+    }
+
+    .rrs-text {
+        top: 280px;
+        left: -150px;
+        width: 270px;
+    }
+
+    .goldenwedding {
+        width: 754px;
+        top: -1000px;
+        left: -10px;
+    }
+
+    .gws-text {
+        top: -850px;
+        left: -450px;
+    }
+
+    .twentynineteen {
+        width: 870px;
+        top: -50px;
+    }
+
+    .tns-text {
+        width: 220px;
+        left: -250px;
+    }
 }
