@@ -82,7 +82,7 @@ body {
     background-image: url('assets/bg.png');
     display: flex;
     flex-direction: column;
-    background-size: 200%;
+    background-size: cover;
     background-attachment: scroll;
     height: 100vh;
     width: 100vw;    
@@ -97,7 +97,6 @@ h2 {
 }
 p {
     font-size: 1.5em;
-    filter: blur(0.4px);
 }
 
 .page-section {
@@ -825,5 +824,61 @@ p {
     .tns-text {
         width: 220px;
         left: -250px;
+    }
+}
+
+@media only screen and (min-width: 1367px) {
+    .navbook {
+        max-width: 1196px;
+        margin-botton: 0 !important;
+        margin-bottom: -500px;
+    }
+
+    .pages img {
+        margin: 0;
+        margin-bottom: -800px;
+    }
+
+    .milestones {
+        max-width: 196px !important;
+        height: 100% !important;
+        margin-left: 0px !important;
+        margin-top: 50px !important;
+    }
+    .stories {
+        max-width: 194px !important;
+        height: 100% !important;
+        margin-left: -55px !important;
+        margin-top: 100px !important;
+    }
+    .gallery {
+        max-width: 187px !important;
+        height: 100% !important;
+        margin-left: -90px !important;
+        margin-top: 30px !important;
+    }
+    .my-granny {
+        max-width: 215px !important;
+        height: 100% !important;
+        margin-top: 90px !important;
+        margin-left: -60px !important;
+    }
+    .remember {
+        max-width: 223px !important;
+        height: 100% !important;
+        margin-left: -120px !important;
+        margin-top: 20px !important;
+    }
+    .map {
+        max-width: 207px !important;
+        height: 100% !important;
+        margin-top: 100px !important;
+        margin-left: -70px !important;
+    }
+    .nanas-words {
+        max-width: 183px !important;
+        height: 100% !important;
+        margin-top: 70px !important;
+        margin-left: -50px !important;
     }
 }
