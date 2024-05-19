@@ -17,8 +17,9 @@
     }
 
     .language-selector {
-        left: 60px !important;
-        margin-bottom: 50px;
+        max-width: 79px !important;
+        right: 60px;
+        padding-bottom: 50px;
     }
 
     .timeline img {
@@ -80,15 +81,19 @@
 
 body {
     background-image: url('assets/bg.png');
+    background-color: #f1e7d1;
+    background-position-x: center;
     display: flex;
     flex-direction: column;
-    background-size: cover;
+    background-size: auto;
+    background-repeat: no-repeat;
     background-attachment: scroll;
     height: 100vh;
     width: 100vw;    
     overflow-x: hidden;
     font-family: 'MADE Likes Slab';
     font-weight: 100;
+    color: #282727;
 }
 
 h2 {
@@ -104,6 +109,11 @@ p {
     flex-direction: column;
     align-items: center;
     margin: 0 100px 0 100px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
 }
 
 .page-section img {
@@ -123,10 +133,13 @@ p {
 .language-selector {
     position: relative;
     align-self: end;
-    margin-right: 100px;
-    margin-top: 50px;
+    margin-right: 25px;
+    margin-top: 25px;
+    margin-bottom: 0;
     cursor: pointer;
 }
+
+
 
 .hero-images {
     margin-left: 12rem;
@@ -450,8 +463,13 @@ p {
         margin: 0 !important;
     }
 
-    .hero img {
-        width: 1114px;
+    .language-selector {
+        width: 118px;
+        padding-top: 25px;
+    }
+
+    .hero-images {
+        width: 891px;
     }
 
     /* BIRTH */
@@ -709,12 +727,23 @@ p {
 }
 
 @media only screen and (max-width: 1120px) {
+
     h2 {
         font-size: 2.3rem;
     }
     p {
         font-size: 1.2rem;
     }
+
+    .language-selector {
+        width: 103px;
+        padding-top: 25px;
+    }
+
+    .hero-images {
+        width: 780px;
+    }
+
     .birth {
         width: 647px;
     }
