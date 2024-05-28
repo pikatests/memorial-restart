@@ -137,6 +137,8 @@ p {
     margin-top: 25px;
     margin-bottom: 0;
     cursor: pointer;
+    z-index: 4;
+    pointer-events: auto !important;
 }
 
 
